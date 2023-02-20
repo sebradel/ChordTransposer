@@ -54,7 +54,6 @@ public class Transposer {
         }
 
         //Use the HashMaps to transpose each chord, and print them
-        Queue<String[]> prog = new LinkedList<>();
         System.out.print("Transposed progression: ");
         while(!progression.isEmpty()){
             int newKey = tones + scale1.get(progression.peek()[0]);
